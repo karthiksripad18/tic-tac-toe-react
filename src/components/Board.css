@@ -1,0 +1,22 @@
+.grid-container {
+  display: grid;
+  padding: 5px;
+  background-color: black;
+  grid-template-columns: auto auto auto;
+  height: 300px;
+  width: 300px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90px;
+  width: 90px;
+}
